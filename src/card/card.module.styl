@@ -1,9 +1,34 @@
+.flipContainer
+  perspective 1000px
+  //&:hover
+  //  .flipper
+  //    transform rotateY(180deg)
+  //    form
+  //      display none
+  .flipper
+    transition .6s
+    transform-style preserve-3d
+    position relative
+    form
+      backface-visibility hidden
+    .backside
+      width 100%
+      height 100%
+      backface-visibility hidden
+      position absolute
+      top 0
+      left 0
+    .card
+      z-index 2
+    .backside
+      transform rotateY(180deg)
+
 
 .card
   height 270px
   width 430px
-  border-radius 15px
   overflow hidden
+  border-radius 15px
 
 
   form
@@ -46,3 +71,23 @@
           margin-left 10px
           max-width 110px
 
+.backside
+  &:before
+    display block
+    content ''
+    width 100%
+    height 20%
+    margin-top 30px
+    margin-bottom 20px
+    background-color rgba(0, 0, 0, 0.9)
+  div
+    width 94%
+    margin auto
+    label
+      text-align right
+    input
+      caret-color: transparent;
+      padding 0 10px
+      color black
+      text-align right
+      background-color white

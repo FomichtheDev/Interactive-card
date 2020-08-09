@@ -14,7 +14,7 @@ import {
     focusOnCardNumber,
     focusOnFullName,
     focusOnExpDate,
-    focusOnCvv,
+    focusOnCvv, setCardCVV,
 } from "../actions";
 
 
@@ -83,9 +83,12 @@ function Form() {
                     </div>
                     <Input class={classes.cvv}
                            id='cvv'
+                           length='3'
                            text='CVV'
                            value={cvv}
                            onFocus={() => dispatch(focusOnCvv())}
+                           onChange={e => dispatch(setCardCVV(e.target.value))}
+                           // onFocus={() => document.querySelector('#forFlip').classList.toggle('classes.flipContainer')}
                            style={activeInput.cvv ? styles : null}/>
                 </div>
                 <button>Submit</button>

@@ -15,6 +15,8 @@ function Input(props) {
                 name={props.id}
                 onFocus={props.onFocus}
                 onBlur={props.onFocus}
+                minLength={props.length}
+                maxLength={props.length}
                 value={props.value}/>
         </div>
 
