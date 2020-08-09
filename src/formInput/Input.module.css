@@ -1,18 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+.input {
+  margin-bottom: 10px;
+}
 .input label {
   display: block;
   font-size: 14px;
   font-family: "Source Sans Pro";
-  margin: 20px 0 5px;
+  color: #1a3b5d;
+  font-weight: 600;
+  margin: 0 0 5px;
 }
 .input input {
   width: 100%;
   line-height: 50px;
   font-size: 18px;
-  border: 1px solid #808080;
+  border: 1px solid #ced6e0;
   color: #1a3b5d;
   border-radius: 6px;
-  padding: 5px 15px;
+  padding: 0 15px;
   font-family: "Source Sans Pro", sans-serif;
   transition: 0.3s;
   outline: none;
@@ -21,7 +26,4 @@
 .input input:hover {
   border: 1px solid #3d9cff;
   box-shadow: 0 1px 4px 1px rgba(61,156,255,0.4);
-}
-.input select {
-  width: 100px;
 }

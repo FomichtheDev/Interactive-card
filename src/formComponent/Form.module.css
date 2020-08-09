@@ -1,13 +1,36 @@
 .main {
-  width: 35%;
+  width: 33.3333%;
   margin: auto;
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main form {
+.main .data {
   width: 100%;
   padding: 40px 30px;
-  border: 1px solid #f00;
+  border: 1px solid #fff;
   box-shadow: 0 30px 60px 0 rgba(90,116,148,0.4);
+  border-radius: 10px;
+  background: #fff;
+}
+.main .data .cvv {
+  max-width: 150px;
+}
+.main .data button {
+  display: block;
+  width: 100%;
+  line-height: 52px;
+  background: #2364d2;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: 3px 10px 20px 0 rgba(35,100,210,0.3);
+  color: #fff;
+  cursor: pointer;
 }
 .bottomRow {
   margin-top: 10px;
@@ -15,10 +38,12 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 .formGroup {
   display: flex;
   align-content: center;
+  flex-grow: 2;
   flex-direction: column;
 }
 .formGroup label {

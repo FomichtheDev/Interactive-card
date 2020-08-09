@@ -1,4 +1,34 @@
+.select {
+  display: inline-block;
+  width: 150px;
+  height: 52px;
+  margin-right: 40px;
+  position: relative;
+}
 .select select {
-  width: 120px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNrM1sEJwkAQBdCsngXPHsQO9O5FS7AAMVYgdqAd2IGCDWgFnryLFQiCZ8EGnJUNimiyM/tnk4HNEAg/8y6ZmMRVqz9eUJvRaSbvutCZ347bXVJy/ZnvTmdJ862Me+hAbZCTs6GHpyUi1tTSvPnqTpoWZPUa7W7ncT3vK4h4zVejy8QzM3WhVUO8ykI6jOxoGA4ig3BLHcNFSCGqGAkig2yqgpEiMsjSfY9LxYQg7L6r0X6wS29YJiYQYecemY+wHrXD1+bklGhpAhBDeu/JfIVGxaAQ9sb8CI+CQSJ+QmJg0Ii/EE2MBiIXooHRQhRCkBhNhBcEhLkwf05ZCG8ICCOpk0MULmvDSY2M8UawIRExLIQIEgHDRoghihgRIgiigBEjgiFATBACAgFgghEwSAAGgoBCBBgYAg5hYKAIFYgHBo6w9RRgAFfy160QuV8NAAAAAElFTkSuQmCC");
+  background-size: 12px;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #ced6e0;
+  padding-right: 30px;
+}
+.select select:first-of-type {
+  margin-right: 40px;
+}
+.select select:focus,
+.select select:hover {
+  border: 1px solid #3d9cff;
+  box-shadow: 0 1px 4px 1px rgba(61,156,255,0.4);
 }
