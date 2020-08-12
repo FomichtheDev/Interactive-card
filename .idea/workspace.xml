@@ -3,13 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="a6ca7ddd-aa1e-4e17-a58f-04ecbb30e47e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardInput/CardInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardInput/CardInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardInput/CardInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardInput/CardInput.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardInput/CardInput.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardInput/CardInput.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select/Select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Select/Select.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select/Select.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Select/Select.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select/Select.module.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/card.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card/card.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/card.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formComponent/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formComponent/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formComponent/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/formComponent/Form.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formComponent/Form.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/formComponent/Form.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formInput/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formInput/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formInput/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/formInput/Input.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formInput/Input.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/formInput/Input.module.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/cardDataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/cardDataReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +68,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\interactive-card\src\CardInput" />
-      <recent name="C:\Users\User\Desktop\interactive-card\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\interactive-card\public" />
       <recent name="C:\Users\User\Desktop\interactive-card\src\card" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\interactive-card\src\CardInput" />
+      <recent name="C:\Users\User\Desktop\interactive-card\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -94,7 +107,9 @@
       <workItem from="1596635513204" duration="9133000" />
       <workItem from="1596721078310" duration="10217000" />
       <workItem from="1596962464653" duration="24385000" />
-      <workItem from="1596997045990" duration="6347000" />
+      <workItem from="1596997045990" duration="6389000" />
+      <workItem from="1597053703686" duration="18105000" />
+      <workItem from="1597146577835" duration="9386000" />
     </task>
     <task id="LOCAL-00001" summary="Form set up">
       <created>1596636830306</created>
@@ -110,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596989377914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Card flip + cvv input">
+      <created>1597003419037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597003419037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,17 +143,18 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Form set up" />
     <MESSAGE value="Card form + redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card form + redux" />
+    <MESSAGE value="Card flip + cvv input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card flip + cvv input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="658" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597003124994">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="658" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1597003124994" />
-    <state x="524" y="52" key="CommitChangelistDialog2" timestamp="1596989372297">
+    <state x="524" y="52" key="CommitChangelistDialog2" timestamp="1597003417154">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="524" y="52" key="CommitChangelistDialog2/0.0.1920.1041@0.0.1920.1041" timestamp="1596989372297" />
+    <state x="524" y="52" key="CommitChangelistDialog2/0.0.1920.1041@0.0.1920.1041" timestamp="1597003417154" />
     <state x="574" y="277" key="EditFileWatcherDialog" timestamp="1596540813115">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
@@ -140,38 +163,38 @@
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="769" y="376" width="411" height="288" key="Github.ShareDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596540722049" />
-    <state width="1893" height="39" key="GridCell.Tab.0.bottom" timestamp="1597003125033">
+    <state width="1893" height="39" key="GridCell.Tab.0.bottom" timestamp="1597157412687">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1597003125033" />
-    <state width="1893" height="39" key="GridCell.Tab.0.center" timestamp="1597003125033">
+    <state width="1893" height="39" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412687" />
+    <state width="1893" height="39" key="GridCell.Tab.0.center" timestamp="1597157412686">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1597003125033" />
-    <state width="1893" height="39" key="GridCell.Tab.0.left" timestamp="1597003125033">
+    <state width="1893" height="39" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412686" />
+    <state width="1893" height="39" key="GridCell.Tab.0.left" timestamp="1597157412686">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1597003125033" />
-    <state width="1893" height="39" key="GridCell.Tab.0.right" timestamp="1597003125033">
+    <state width="1893" height="39" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412686" />
+    <state width="1893" height="39" key="GridCell.Tab.0.right" timestamp="1597157412686">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1597003125033" />
+    <state width="1893" height="39" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412686" />
     <state x="216" y="142" width="1141" height="899" key="SettingsEditor" timestamp="1596963363455">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="216" y="142" width="1141" height="899" key="SettingsEditor/0.0.1920.1041@0.0.1920.1041" timestamp="1596963363455" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596989380415">
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1597003421607">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1041@0.0.1920.1041" timestamp="1596989380415" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1041@0.0.1920.1041" timestamp="1597003421607" />
     <state x="92" y="92" width="1736" height="857" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1596988413464">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="92" y="92" width="1736" height="857" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596988413464" />
-    <state x="68" y="130" width="1736" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597003147250">
+    <state x="68" y="130" width="1736" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597152027626">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="68" y="130" width="1736" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1597003147250" />
+    <state x="68" y="130" width="1736" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1597152027626" />
     <state x="741" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596542973377">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>

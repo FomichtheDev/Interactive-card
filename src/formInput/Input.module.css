@@ -10,6 +10,10 @@
   font-weight: 600;
   margin: 0 0 5px;
 }
+.input .active {
+  border: 1px solid #3d9cff;
+  box-shadow: 0 1px 4px 1px rgba(61,156,255,0.4);
+}
 .input input {
   width: 100%;
   line-height: 50px;
@@ -21,6 +25,7 @@
   font-family: "Source Sans Pro", sans-serif;
   transition: 0.3s;
   outline: none;
+  cursor: pointer;
 }
 .input input:focus,
 .input input:hover {

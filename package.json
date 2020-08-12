@@ -13,12 +13,14 @@
     "@testing-library/user-event": "^7.1.2",
     "jquery": "^3.5.1",
     "jquery-mask-plugin": "^1.14.16",
+    "jquery.maskedinput": "^1.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-input-mask": "^3.0.0-alpha.2",
     "react-maskedinput": "^4.0.1",
     "react-redux": "^7.2.1",
     "react-scripts": "3.4.1",
+    "react-text-mask": "^5.4.3",
     "redux": "^4.0.5"
   },
   "scripts": {

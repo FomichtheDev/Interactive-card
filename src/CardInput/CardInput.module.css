@@ -18,6 +18,7 @@
   font-size: 24px;
   transition: all 0.3s ease-in-out;
   color: #fff;
+  caret-color: transparent;
 }
 .cardInput input::placeholder {
   color: #fff;
@@ -25,4 +26,10 @@
 .cardInput input:focus {
   border: 2px solid #fff;
   border-radius: 5px;
+  background-color: rgba(0,0,0,0.4);
+}
+.cardInput .cardActive {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.4);
 }

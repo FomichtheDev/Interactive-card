@@ -21,8 +21,17 @@
     font-size 24px
     transition all .3s ease-in-out
     color white
+    caret-color: transparent;
     &::placeholder
       color white
     &:focus
       border 2px solid white
       border-radius 5px
+      background-color rgba(0, 0, 0, 0.4)
+
+
+  .cardActive{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }

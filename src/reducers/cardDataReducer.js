@@ -3,38 +3,56 @@ const initialState = {
     fullName: '',
     expMonth: '',
     expYear: '',
-    cvv: ''
+    cvv: '',
+    errors: {
+        cardNumber: '',
+        fullName: '',
+        expMonth: '',
+        expYear: '',
+        cvv: '',
+    }
 };
 
 const cardDataReducer = (state = initialState, action) => {
     switch (action.type) {
         default:
             return state;
-        case 'SET_CARD_NUMBER':
-            return {
-                ...state,
-                cardNumber: action.payload
-            };
-        case 'SET_CARD_HOLDER':
-            return {
-                ...state,
-                fullName: action.payload
-            };
         case 'SET_CARD_EXP_MONTH':
             return {
                 ...state,
                 expMonth: action.payload
             };
+
+
         case 'SET_CARD_EXP_YEAR':
             return {
                 ...state,
                 expYear: action.payload
             };
-        case 'SET_CARD_CVV':
+
+
+        case 'SET_CARD_DATA':
+            if (action.name.toString() === 'cardNumber') {
+                if (action.value.length === 4 || action.value.length === 9 || action.value.length === 14) {
+                    action.value += ' ';
+                    return {
+                        ...state,
+                        [action.name]: action.value
+                    };
+                }
+            }
             return {
                 ...state,
-                cvv: action.payload
+                [action.name]: action.value
             };
+
+
+        case 'SET_CARD_ERRORS':
+            return {
+                ...state,
+                errors: action.errors
+            };
+
     }
 };
 

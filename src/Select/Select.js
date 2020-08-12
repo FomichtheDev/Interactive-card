@@ -5,7 +5,7 @@ import classes from './Select.module.css'
 function Select(props) {
     return (
         <div className={classes.select}>
-            <select id={props.id} value={props.value} onChange={props.onChange} onFocus={props.onFocus} onBlur={props.onFocus} style={props.style}>
+            <select id={props.id} value={props.value} name={props.id} onChange={props.onChange} onFocus={props.onFocus} onBlur={props.onFocus} style={props.style}>
                 {
                     props.options.map((option,index) => {
                         return(

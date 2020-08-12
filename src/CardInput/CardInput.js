@@ -5,6 +5,7 @@ import classes from './CardInput.module.css'
 
 function CardInput(props) {
 
+
     return (
         <div className={classes.cardInput}>
             {props.text ? <label>{props.text}</label> : null}
@@ -15,12 +16,11 @@ function CardInput(props) {
                 name={props.id}
                 placeholder={props.placeholder}
                 value={props.value}
+                maxLength={props.maxLength}
                 id={props.id}
                 onFocus={props.onFocus}
                 onBlur={props.onFocus}
                 disabled={props.disabled}/>
-            {/*<InputMask mask={props.mask} onChange={props.onChange} value={props.value} type={props.type} />*/}
-            {/*<MaskedInput mask={props.mask}/>*/}
         </div>
 
     )

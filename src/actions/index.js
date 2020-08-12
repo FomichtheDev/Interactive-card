@@ -1,17 +1,3 @@
-export const setCardNumber = (payload) => {
-  return{
-      type: 'SET_CARD_NUMBER',
-      payload: payload
-  }
-};
-
-
-export const setCardHolder = (payload) => {
-    return{
-        type: 'SET_CARD_HOLDER',
-        payload: payload
-    }
-};
 
 
 export const setCardExpMonth = (payload) => {
@@ -29,37 +15,20 @@ export const setCardExpYear = (payload) => {
     }
 };
 
-export const setCardCVV = (payload) => {
+
+
+
+export const SetCardData = (name, value) => {
     return{
-        type: 'SET_CARD_CVV',
-        payload: payload
+        type: 'SET_CARD_DATA',
+        name,
+        value
     }
 };
 
-
-
-
-export const focusOnCardNumber = () => {
-  return{
-      type: 'FOCUS_ON_CARD_NUMBER'
-  }
-};
-
-export const focusOnFullName = () => {
+export const SetCardErrors = (errors) => {
     return{
-        type: 'FOCUS_ON_FULL_NAME'
+        type: 'SET_CARD_ERRORS',
+        errors
     }
 };
-
-export const focusOnExpDate = () => {
-    return{
-        type: 'FOCUS_ON_EXP_DATE'
-    }
-};
-
-export const focusOnCvv = () => {
-    return{
-        type: 'FOCUS_ON_CVV'
-    }
-};
-
