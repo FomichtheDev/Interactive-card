@@ -30,6 +30,17 @@
   width: 430px;
   background-color: rgba(0,0,0,0.1);
 }
+@media (max-width: 599px) {
+  .flipContainer .flipper form {
+    width: 380px;
+  }
+}
+@media (max-width: 374px) {
+  .flipContainer .flipper form {
+    height: 200px;
+    width: 300px;
+  }
+}
 .flipContainer .flipper form input {
   font-family: "Source Code Pro", sans-serif;
 }
@@ -47,19 +58,36 @@
   display: flex;
   justify-content: space-between;
 }
-.flipContainer .top .chip {
+@media (max-width: 374px) {
+  .flipContainer .top {
+    margin-bottom: 20px;
+  }
+}
+.flipContainer .chip {
   width: 70px;
   height: 50px;
 }
-.flipContainer .top .chip img {
+@media (max-width: 374px) {
+  .flipContainer .chip {
+    width: 50px;
+    height: 30px;
+  }
+}
+.flipContainer .chip img {
   width: 100%;
   height: 100%;
 }
-.flipContainer .top .cardType {
+.flipContainer .cardType {
   width: 75px;
   height: 50px;
 }
-.flipContainer .top .cardType img {
+@media (max-width: 374px) {
+  .flipContainer .cardType {
+    width: 50px;
+    height: 30px;
+  }
+}
+.flipContainer .cardType img {
   width: 100%;
   height: 100%;
 }
@@ -67,8 +95,18 @@
   padding: 35px 0 15px;
   margin-bottom: 15px;
 }
+@media (max-width: 374px) {
+  .flipContainer .middle {
+    padding: 0;
+  }
+}
 .flipContainer .middle input {
   padding: 2px 10px;
+}
+@media (max-width: 374px) {
+  .flipContainer .middle input {
+    font-size: 14px;
+  }
 }
 .flipContainer .bottom {
   display: flex;
@@ -78,6 +116,12 @@
 .flipContainer .bottom div input,
 .flipContainer .bottom div label {
   padding: 0 10px;
+}
+@media (max-width: 374px) {
+  .flipContainer .bottom div input,
+  .flipContainer .bottom div label {
+    font-size: 16px;
+  }
 }
 .flipContainer .bottom div:last-of-type {
   margin-left: 10px;

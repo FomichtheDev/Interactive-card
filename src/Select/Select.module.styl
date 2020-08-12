@@ -2,14 +2,11 @@
   display inline-block
   width 150px
   height 52px
-  margin-right 40px
   position relative
   .active
     border 1px solid #3d9cff
     box-shadow: 0 1px 4px 1px rgba(61,156,255,0.4);
   select
-    &:first-of-type
-      margin-right 40px
     width 100%
     height 100%
     padding 0 10px
@@ -32,3 +29,7 @@
       border 1px solid #3d9cff
       box-shadow: 0 1px 4px 1px rgba(61,156,255,0.4);
 
+@media (max-width: 599px)
+  .select
+    width 120px
+    margin-bottom 25px

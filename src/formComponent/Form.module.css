@@ -1,5 +1,5 @@
 .main {
-  width: 33.3333%;
+  width: 600px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -40,14 +40,19 @@
   margin-top: 10px;
   width: 100%;
   display: flex;
-  align-content: center;
+  align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .formGroup {
   display: flex;
-  align-content: center;
-  flex-grow: 2;
   flex-direction: column;
+  align-content: center;
+  flex-grow: 0.3;
+}
+.formGroup >div {
+  display: flex;
+  justify-content: space-between;
 }
 .formGroup label {
   font-size: 14px;
@@ -70,4 +75,9 @@
 }
 .lastError {
   margin-bottom: 30px;
+}
+@media (max-width: 599px) {
+  .main {
+    width: 320px;
+  }
 }

@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6ca7ddd-aa1e-4e17-a58f-04ecbb30e47e" name="Default Changelist" comment="">
+    <list default="true" id="a6ca7ddd-aa1e-4e17-a58f-04ecbb30e47e" name="Default Changelist" comment="Final version without adaptive">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardInput/CardInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardInput/CardInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardInput/CardInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardInput/CardInput.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardInput/CardInput.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardInput/CardInput.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select/Select.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Select/Select.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select/Select.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Select/Select.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select/Select.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/card.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card/card.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/card.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formComponent/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formComponent/Form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formComponent/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/formComponent/Form.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/formComponent/Form.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/formComponent/Form.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formInput/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formInput/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formInput/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/formInput/Input.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formInput/Input.module.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/formInput/Input.module.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/cardDataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/cardDataReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +52,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -110,6 +97,8 @@
       <workItem from="1596997045990" duration="6389000" />
       <workItem from="1597053703686" duration="18105000" />
       <workItem from="1597146577835" duration="9386000" />
+      <workItem from="1597236558759" duration="346000" />
+      <workItem from="1597236917686" duration="2489000" />
     </task>
     <task id="LOCAL-00001" summary="Form set up">
       <created>1596636830306</created>
@@ -132,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597003419037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final version without adaptive">
+      <created>1597236642919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597236642919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,17 +140,22 @@
     <MESSAGE value="Form set up" />
     <MESSAGE value="Card form + redux" />
     <MESSAGE value="Card flip + cvv input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card flip + cvv input" />
+    <MESSAGE value="Final version without adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version without adaptive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="658" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597003124994">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="658" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1597003124994" />
-    <state x="524" y="52" key="CommitChangelistDialog2" timestamp="1597003417154">
+    <state x="524" y="52" key="CommitChangelistDialog2" timestamp="1597237148477">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="524" y="52" key="CommitChangelistDialog2/0.0.1920.1041@0.0.1920.1041" timestamp="1597003417154" />
+    <state x="524" y="52" key="CommitChangelistDialog2/0.0.1920.1041@0.0.1920.1041" timestamp="1597237148477" />
+    <state x="184" y="92" key="DiffContextDialog" timestamp="1597237140980">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="184" y="92" key="DiffContextDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1597237140980" />
     <state x="574" y="277" key="EditFileWatcherDialog" timestamp="1596540813115">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
@@ -163,30 +164,30 @@
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="769" y="376" width="411" height="288" key="Github.ShareDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596540722049" />
-    <state width="1893" height="39" key="GridCell.Tab.0.bottom" timestamp="1597157412687">
+    <state width="1893" height="39" key="GridCell.Tab.0.bottom" timestamp="1597239491626">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412687" />
-    <state width="1893" height="39" key="GridCell.Tab.0.center" timestamp="1597157412686">
+    <state width="1893" height="39" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1597239491626" />
+    <state width="1893" height="39" key="GridCell.Tab.0.center" timestamp="1597239491625">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412686" />
-    <state width="1893" height="39" key="GridCell.Tab.0.left" timestamp="1597157412686">
+    <state width="1893" height="39" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1597239491625" />
+    <state width="1893" height="39" key="GridCell.Tab.0.left" timestamp="1597239491625">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412686" />
-    <state width="1893" height="39" key="GridCell.Tab.0.right" timestamp="1597157412686">
+    <state width="1893" height="39" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1597239491625" />
+    <state width="1893" height="39" key="GridCell.Tab.0.right" timestamp="1597239491626">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1893" height="39" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1597157412686" />
-    <state x="216" y="142" width="1141" height="899" key="SettingsEditor" timestamp="1596963363455">
+    <state width="1893" height="39" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1597239491626" />
+    <state x="412" y="64" width="1141" height="899" key="SettingsEditor" timestamp="1597237337760">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="216" y="142" width="1141" height="899" key="SettingsEditor/0.0.1920.1041@0.0.1920.1041" timestamp="1596963363455" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1597003421607">
+    <state x="412" y="64" width="1141" height="899" key="SettingsEditor/0.0.1920.1041@0.0.1920.1041" timestamp="1597237337760" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1597236661941">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1041@0.0.1920.1041" timestamp="1597003421607" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1041@0.0.1920.1041" timestamp="1597236661941" />
     <state x="92" y="92" width="1736" height="857" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1596988413464">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
@@ -203,5 +204,9 @@
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1041@0.0.1920.1041" timestamp="1596723768790" />
+    <state x="742" y="328" key="zielu.gittoolbox.ui.GitPushTagsDialog" timestamp="1597237085002">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="742" y="328" key="zielu.gittoolbox.ui.GitPushTagsDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1597237085002" />
   </component>
 </project>
